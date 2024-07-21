@@ -9,7 +9,7 @@ public class Iterator1 {
         cities.add("Banglore");
         cities.add("Chennai");
 
-        Iterator iterator = cities.iterator();
+        Iterator<String> iterator = cities.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next() + " ");
         }
